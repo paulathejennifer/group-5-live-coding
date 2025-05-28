@@ -38,6 +38,7 @@ data class Exam(
     val durationMinutes: Int
 )
 
+
 class ExamScheduler(
     private val students: List<Student>,
     private val invigilators: List<Invigilator>,
