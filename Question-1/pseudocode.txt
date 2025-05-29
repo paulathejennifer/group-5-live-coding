@@ -18,3 +18,5 @@ Create a function to check the special accomodation of the in the student and it
 Output
 List of Strings
 
+
+
