@@ -1,4 +1,4 @@
-# group-5-live-coding
+# Group five live coding
 
 #Question number 1
 #School exam Scheduling
