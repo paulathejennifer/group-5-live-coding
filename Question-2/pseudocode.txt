@@ -1,0 +1,19 @@
+Input
+List of patient objects 
+List of bed objects 
+List of staff objects 
+List of equipment objects
+Process
+1. Gather real-time data on patient needs, available beds, staff, and equipment.
+2. Assign priority scores to patients based on urgency and waiting time.
+3. Sort patients by priority (highest to lowest).
+4. For each patient (starting with the highest priority), check if needed bed, staff, and equipment are available.
+5. If all resources are available, allocate them and update their status to "in use".
+6. If any resource is unavailable, keep the patient in the queue and check the next one.
+7. When a surge in patients occurs, activate extra resources and update priorities.
+8. Regularly update resource availability and patient conditions.
+9. Repeat allocation and monitoring steps continuously for efficiency.
+Output
+ List of resource assignments
+ List of patients still waiting 
+ Status of all resources
