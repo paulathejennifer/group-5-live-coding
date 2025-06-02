@@ -1,7 +1,7 @@
 <h1>Group five live coding</h1>
 
 <h2>Question number 1<h2>
-<h3>School exam Scheduling</h3>
+<h3>School exam scheduling</h3>
 Develop a Scheduling system for school exams that ensures no student faces s timetable conflict between exams, provides aduquate revision time between tests, and utilizes available school 
 facilities efficiently. This system must consider the specific needs of different subjects, the availability of exam invigilators, and special accommodation requirements for certain students.
 
