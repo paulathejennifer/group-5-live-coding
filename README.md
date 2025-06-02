@@ -11,6 +11,7 @@ Design a resource management system that allocates beds, medical staff and speci
 
 <h2>Question number 3</h2>
 <h3>Data Structure</h3>
+Design a data structure to represent a shopping cart for an online store that supports adding items , removing items, updating items.
 
 
 <h4>Group Members</h4>
