@@ -1,23 +1,33 @@
- Input: 
- list object of students, lis  objects of exams ,list objects of facilities and list objects of invigilators.
+Input:
+List of students
+List of facilities
+List of invigilators
 
- Processs
- 1.Intialize empty schedule list that waits input from the user
+Process:
+1. Start with an empty exam schedule.
 
- 2.Create a function that checks if the schedule has conflict or not and it has a parameter of studentId,day and slot , it returns a boolean.
+2. For each exam to be scheduled we should create an exam record with subject, students, facility, invigilator, day, start time and end time.
 
- 3.Create another function to check if it has a revision time with the parameters of student id,index of days and exam of days and it returns a boolean value.
+3. For each student in the exam we should check if the student already has another exam at the same time.
 
- 4.Create a function that checks the availability of a facility school with the parameters of exam ,day and slot , it returns boolean.
+4. If yes, print a message and do not schedule this exam.
 
- 5.Create a function that checks the availability of invigilators and it returns the boolean.
+5. Check if the student has enough revision time after their previous exam.
 
- 6.Create a function that checks for every function by creating new schedule iterable array.
+6. If they have no enough time, print a message not to schedule the exam.
 
- 7.Create a function to check the special accomodation of the in the student and it returns a string.
+7. Check if the facility (room) is available at the given time.
 
-Output
-List of Strings
+8. If not available print a message  not to schedule the exam.
 
+9. Check if the invigilator is available at the given time.
+
+10. If not available print a message  not to schedule the exam.
+
+11. If all checks have passed add the exam to the schedule and print a success message.
+
+Output:
+Messages showing if the exam was scheduled or why it could not be scheduled.
+List of scheduled exams. guy help me add what i have left out
 
 
