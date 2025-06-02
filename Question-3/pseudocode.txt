@@ -1,5 +1,4 @@
 Input
-
 List of item objects (each has: id, name, price, quantity)
 Process
 1. Initialize an empty shopping cart
