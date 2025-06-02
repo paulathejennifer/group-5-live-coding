@@ -1,22 +1,31 @@
    Inputs
 list of patients that will  include information on the equipment they require,
+
 list of beds in the hospital, and their state if they are occupied or not,
-list of doctors and nurses, and what they do or their expertises,
-if they are free or busy,list of special equipments and if they are free or busy
+
+list of doctors and nurses, and what they do or their expertises,if they are free or busy,list of special equipments and if they are free or busy
    Process
-Look at all the patients and put the ones who need the most help at the top of the list.
-For each patient, one at a time
-Find a free bed.
-Find a free doctor or nurse who can help with that patient’s problem.
-Find any special machines the patient needs, if they are free.
-Make sure not to give the same bed, doctor, nurse, or machine to two people at the same time.
-If you can find everything the patient needs, assign it to them and mark those things as busy.
-If you can’t, put the patient on a waiting list.
-When a patient leaves or something becomes free, check if you can help someone from the waiting list now.
-If suddenly a lot of new patients come in, help the ones in the most danger first, even if others have to wait a little longer.
-Try not to let any beds, staff, or machines sit unused if there are patients waiting.
+1.Look at all the patients and put the ones who need the most help at the top of the list.
+
+2.For each patient, one at a time find a free bed.
+
+3.Find a free doctor or nurse who can help with that patient’s problem.
+
+4.Find any special machines the patient needs, if they are free.
+
+5.Make sure not to give the same bed, doctor, nurse, or machine to two people at the same time.
+
+6.If you can find everything the patient needs, assign it to them and mark those things as busy.
+
+7.If you can’t, put the patient on a waiting list.
+
+8.When a patient leaves or something becomes free, check if you can help someone from the waiting list now.
+
+9.If suddenly a lot of new patients come in, help the ones in the most danger first, even if others have to wait a little longer.
+
+10.Try not to let any beds, staff, or machines sit unused if there are patients waiting.
    Output
+
 list showing which patient is in which bed, with which doctor/nurse, and using which machines
-list of patients who are still waiting, with notes on what they still need
-summary showing how busy the hospital is
-warnings if there are not enough people or machines to help everyone
+
+list of patients who are still waiting, with notes on what they still need summary showing how busy the hospital is warnings if there are not enough people or machines to help everyone
