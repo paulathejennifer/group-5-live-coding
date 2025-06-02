@@ -1,0 +1,15 @@
+Input
+
+List of item objects (each has: id, name, price, quantity)
+Process
+1. Initialize an empty shopping cart
+2. When the user adds an item, check if the item is already in the cart
+3. If the item is in the cart, increase its quantity
+4. If the item is not in the cart, add it with the specified quantity
+5. When the user removes an item, check if the item is in the cart
+6.If the item is in the cart, remove it
+7. When the user updates an item, check if the item is in the cart
+8. If the item is in the cart, update its quantity to the new value
+9. If the new quantity is zero or less, remove the item from the cart
+Output
+List of items in the cart and the total price
