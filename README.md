@@ -13,7 +13,7 @@ Design a resource management system that allocates beds, medical staff and speci
 <h3>Data Structure</h3>
 
 
-<h3>Group Members</h3>
+<h4>Group Members</h4>
 <p>Rigbe Weleslasie</p>
 <p>Jennifer</p>
 <p>Esther</p>
