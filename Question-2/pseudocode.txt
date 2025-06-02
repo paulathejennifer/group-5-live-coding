@@ -1,19 +1,39 @@
-Input
-List of patient objects 
-List of bed objects 
-List of staff objects 
-List of equipment objects
-Process
-1. Gather real-time data on patient needs, available beds, staff, and equipment.
-2. Assign priority scores to patients based on urgency and waiting time.
-3. Sort patients by priority (highest to lowest).
-4. For each patient (starting with the highest priority), check if needed bed, staff, and equipment are available.
-5. If all resources are available, allocate them and update their status to in use.
-6. If any resource is unavailable, keep the patient in the queue and check the next one.
-7. When a surge in patients occurs, activate extra resources and update priorities.
-8. Regularly update resource availability and patient conditions.
-9. Repeat allocation and monitoring steps continuously for efficiency.
-Output
- List of resource assignments
- List of patients still waiting 
- Status of all resources
+Inputs:
+A list of patients that will  include information on the equipment they require,
+A list of beds in the hospital, and their state, whether they are occupied or not,
+A list of doctors and nurses, and what they do or their expertise,
+If they are free or busy, 
+A list of special equipment, and whether they are free or busy
+
+Output:
+A list showing which patient is in which bed, with which doctor/nurse, and using which machines
+A list of patients who are still waiting, with notes on what they still need and
+A  list summary showing how busy the hospital is and 
+warnings if there are not enough people or machines to help everyone 
+
+Process:
+1. Begin by reviewing all the patients and putting the ones who need the most help at the top of the priority list by:
+Urgency level
+Waiting time
+Resource needs
+
+2. For each patient, one at a time;
+Find a free bed.
+Find a free doctor or nurse who can help with that patient’s problem.
+Find any special machines the patient needs, if they are free.
+
+3. Make sure not to give the same bed, doctor, nurse, or machine to two people at the same time.
+
+4. If you can find everything the patient needs, assign it to them and mark those things as busy.
+
+5. If no resources are found, put the patient on a waiting list.
+
+6. If resources are assigned to a patient, mark them as in use.
+
+7. If the resources are completely not in the hospital, mark them as unavailable.
+
+8. When a patient is discharged or something becomes free, check if you can help someone from the waiting list now.
+
+9. If suddenly a lot of new patients come in, help the ones in the most danger first, even if others have to wait a little longer.
+
+10. Try not to let any beds, staff, or machines sit unused if patients are waiting.
