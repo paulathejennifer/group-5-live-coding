@@ -1,6 +1,5 @@
-
 Inputs:
-A list of patients that will  include information on the equipment they require,
+A list of patients that will  include information on the expertise and  equipment they require,
 A list of beds in the hospital, and their state, whether they are occupied or not,
 A list of doctors and nurses, and what they do or their expertise,
 If they are free or busy, 
