@@ -1,3 +1,4 @@
+
 Inputs:
 A list of patients that will  include information on the equipment they require,
 A list of beds in the hospital, and their state, whether they are occupied or not,
