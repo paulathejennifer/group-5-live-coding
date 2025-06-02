@@ -101,28 +101,28 @@ class ExamScheduler(
 
 fun main() {
     val students = listOf(
-        Student(1, "Alice", false, listOf("Math", "Biology")),
-        Student(2, "Bob", true, listOf("Math", "Physics")),
-        Student(3, "Cara", false, listOf("Biology"))
+        Student(1, "Jennifer", false, listOf("Frontend Mobile", "Frontend Web")),
+        Student(2, "Esther", true, listOf("Frontend Mobile", "NYJ")),
+        Student(3, "Rigbe", false, listOf("Frontend Web"))
     )
     val invigilators = listOf(
-        Invigilator(1, "Mr. Smith", listOf(
+        Invigilator(1, "Miss Hunter", listOf(
             LocalDateTime.of(2025, 6, 1, 9, 0),
             LocalDateTime.of(2025, 6, 1, 14, 0)
         )),
-        Invigilator(2, "Ms. Jones", listOf(
+        Invigilator(2, "Ms. Linda", listOf(
             LocalDateTime.of(2025, 6, 1, 9, 0),
             LocalDateTime.of(2025, 6, 1, 14, 0)
         ))
     )
     val rooms = listOf(
-        Room(1, "Room 101", false, 30),
-        Room(2, "Science Lab", true, 20)
+        Room(1, "Bool", false, 30),
+        Room(2, "Char", true, 20)
     )
     val subjectRequirements = mapOf(
-        "Math" to SubjectRequirement("Math", false, 90, 24),
-        "Biology" to SubjectRequirement("Biology", true, 120, 24),
-        "Physics" to SubjectRequirement("Physics", true, 120, 24)
+        "Frontend Mobile" to SubjectRequirement("Frontend Mobile", false, 90, 24),
+        "Frontend Web" to SubjectRequirement("Frontend Web", true, 120, 24),
+        "NYJ" to SubjectRequirement("NYJ", true, 120, 24)
     )
 
     val scheduler = ExamScheduler(students, invigilators, rooms, subjectRequirements)
