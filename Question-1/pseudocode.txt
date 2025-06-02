@@ -1,6 +1,7 @@
- Input: 
+<h4> Input: </h4>
  list object of students, lis  objects of exams ,list objects of facilities and list objects of invigilators.
- Processs
+
+ <h4>Processs</h4>
  Intialize empty schedule list that waits input from the user
 
  Create a function that checks if the schedule has conflict or not and it has a parameter of studentId,day and slot , it returns a boolean.
@@ -15,7 +16,7 @@ Create a function that checks for every function by creating new schedule iterab
 
 Create a function to check the special accomodation of the in the student and it returns a string.
 
-Output
+<h4>Output</h4>
 List of Strings
 
 
