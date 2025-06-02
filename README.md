@@ -9,3 +9,5 @@ facilities efficiently. This system must consider the specific needs of differen
 <h3>Hospital resource management</h3>
 Design a resource management system that allocates beds, medical staff and specialized equipment to patients based on their urgency, availability of management staff with specific expertise and logistical constraints of equipment usage. The system should prioritize patient effectively while ensuring optimal use of hospital resources. Key objectives include reducing patient wait time utilizing staff and equipment effectively and accomodating sudden spikes in patient intake.
 
+<h2>Question number 3</h2>
+<h3>Data Structure</h3>
