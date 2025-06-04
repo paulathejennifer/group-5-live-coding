@@ -28,6 +28,6 @@ Process:
 
 Output:
 Messages showing if the exam was scheduled or why it could not be scheduled.
-List of scheduled exams. guy help me add what i have left out
+List of scheduled exams.
 
 
