@@ -4,23 +4,15 @@ A list of beds in the hospital, and their state, whether they are occupied or no
 A list of doctors and nurses, and what they do or their expertise,
 If they are free or busy, 
 A list of special equipment, and whether they are free or busy
-
-Output:
-A list showing which patient is in which bed, with which doctor/nurse, and using which machines
-A list of patients who are still waiting, with notes on what they still need and
-A  list summary showing how busy the hospital is and 
-warnings if there are not enough people or machines to help everyone 
-
 Process:
 1. Begin by reviewing all the patients and putting the ones who need the most help at the top of the priority list by:
-Urgency level
-Waiting time
-Resource needs
-
+  Urgency level
+  Waiting time
+  Resource needs
 2. For each patient, one at a time;
-Find a free bed.
-Find a free doctor or nurse who can help with that patient’s problem.
-Find any special machines the patient needs, if they are free.
+  Find a free bed.
+  Find a free doctor or nurse who can help with that patient’s problem.
+  Find any special machines the patient needs, if they are free.
 
 3. Make sure not to give the same bed, doctor, nurse, or machine to two people at the same time.
 
@@ -37,3 +29,9 @@ Find any special machines the patient needs, if they are free.
 9. If suddenly a lot of new patients come in, help the ones in the most danger first, even if others have to wait a little longer.
 
 10. Try not to let any beds, staff, or machines sit unused if patients are waiting.
+
+Output:
+A list showing which patient is in which bed, with which doctor/nurse, and using which machines
+A list of patients who are still waiting, with notes on what they still need and
+A  list summary showing how busy the hospital is and 
+warnings if there are not enough people or machines to help everyone 
