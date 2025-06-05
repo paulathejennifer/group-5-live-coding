@@ -1,1 +1,16 @@
+Input
+List of items to add, remove, or update in the cart.
+
+Process
+1.Start with an empty cart hashmap
+2.If user wants to add to cart: get the items id, price and allow user to choose quantity
+3.Check if selected item exists in the cart
+4.If it exists, increase  the existing item's quantity and price by the selected item quantity and price respectively.   
+5.If  it  is new add new item to the cart with the given quantity and price
+6.If the user wants to remove an item, get the item from the cart by id, remove the item from the cart hashmap.
+7.If user wants to update the quantity of an item,get the item from the cart hashmap by id update quantity and recalculate the price.
+
+Output
+ Messages showing the result of each action 
+ List of all items with quantities and prices, total number of items, and total price.
 
